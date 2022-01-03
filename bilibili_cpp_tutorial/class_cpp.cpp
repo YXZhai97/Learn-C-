@@ -30,6 +30,30 @@ class Person
 {
 public:
     string m_Name;
+    int age;
+
+    //静态成员函数， 只能访问静态变量
+    static void st_func()
+    {
+        cout<<"inside static function"<<endl;
+    }
+
+    Person(int a, string n)
+    {
+        cout<<"inside Person construct"<<endl;
+        m_Name=n;
+        age=a;
+    }
+
+    Person()
+    {
+        age=50;
+    }
+    
+    ~Person()
+    {
+        cout<<"inside delete class"<<endl;
+    }
 
     void func()
     {
@@ -57,8 +81,19 @@ int main()
     s1.setName("will");
     s1.showStudent();
 
-    Person p;
-    p.m_Name="Johan";
+    //有参数构造
+    Person p(22,"Eason");
+    p.st_func();
+  
     cout<<p.m_Name<<endl;
+    Person p2=Person(10,"jjj");
+    cout<<p2.age<<endl;
+
+    //无参数构造
+    Person p3;
+    cout<<p3.age<<endl;
+    Person::st_func();
+
+    return 0;
 
 };
