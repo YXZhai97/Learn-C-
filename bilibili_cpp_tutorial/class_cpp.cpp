@@ -31,6 +31,7 @@ class Person
 public:
     string m_Name;
     int age;
+    int m_A;
 
     //静态成员函数， 只能访问静态变量
     static void st_func()
