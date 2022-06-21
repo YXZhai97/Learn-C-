@@ -1,0 +1,450 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jun 21 09:05:25 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'Makefile', line 21)
+SRC := src
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# makefile (from 'Makefile', line 48)
+INCLUDES := -Iinclude
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=fcitx
+# makefile
+CURDIR := /home/yixing/Desktop/Github/LearnCpp/cpp_project1
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 43)
+RM = rm -f
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:58490
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = yixing
+# makefile (from 'Makefile', line 54)
+SOURCES := src/main.cpp
+# makefile (from 'Makefile', line 10)
+CXXFLAGS := -std=c++17 -Wall -Wextra -g
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+ROS_ETC_DIR = /opt/ros/noetic/etc/ros
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+ROS_PACKAGE_PATH = /opt/ros/noetic/share
+# environment
+MANAGERPID = 1780
+# environment
+ROS_PYTHON_VERSION = 3
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = de_DE.UTF-8
+# environment
+VSCODE_CWD = /home/yixing
+# environment
+CLUTTER_IM_MODULE = fcitx
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /opt/ros/noetic/bin:/home/yixing/anaconda3/bin:/home/yixing/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/yixing-Legion-5:@/tmp/.ICE-unix/1997,unix/yixing-Legion-5:/tmp/.ICE-unix/1997
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+ROS_ROOT = /opt/ros/noetic/share/ros
+# makefile (from 'Makefile', line 41)
+LIBDIRS := lib
+# environment
+CONDA_PREFIX = /home/yixing/anaconda3
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 9094b0961c3742678b0dc75c04577c20
+# makefile (from 'Makefile', line 27)
+LIB := lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+CMAKE_PREFIX_PATH = /opt/ros/noetic
+# environment
+LS_COLORS = 
+# environment
+ROS_DISTRO = noetic
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 41898
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+CONDA_EXE = /home/yixing/anaconda3/bin/conda
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/yixing/Desktop/Github/LearnCpp/cpp_project1
+# makefile (from 'Makefile', line 65)
+OUTPUTMAIN := output/main
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1954
+# environment
+PKG_CONFIG_PATH = /opt/ros/noetic/lib/pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/yixing
+# environment
+LD_LIBRARY_PATH = /opt/ros/noetic/lib
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/yixing/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = yixing
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 40)
+INCLUDEDIRS := include
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'Makefile', line 44)
+MD := mkdir -p
+# environment
+LC_TIME = de_DE.UTF-8
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = fcitx
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 42)
+FIXPATH = $1
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-32a67231-fa7e-4ba4-b1c9-3da226bcd062.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = yixing
+# environment
+LC_MONETARY = de_DE.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 24)
+INCLUDE := include
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+ROSLISP_PACKAGE_DIRECTORIES = 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = de_DE.UTF-8
+# makefile (from 'Makefile', line 15)
+LFLAGS = 
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ea5ff363-1.67.2-main.sock
+# environment
+PYTHONPATH = /opt/ros/noetic/lib/python3/dist-packages
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 38)
+MAIN := main
+# environment
+ROS_VERSION = 1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 39)
+SOURCEDIRS := src
+# environment
+LC_PAPER = de_DE.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from 'Makefile', line 18)
+OUTPUT := output
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = de_DE.UTF-8
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 7)
+CXX = g++
+# environment
+LC_MEASUREMENT = de_DE.UTF-8
+# environment
+ROS_MASTER_URI = http://localhost:11311
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/yixing/anaconda3/bin/python
+# environment
+QT4_IM_MODULE = fcitx
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'Makefile', line 51)
+LIBS := -Llib
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+ 
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = de_DE.UTF-8
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 57)
+OBJECTS := src/main.o
+# environment
+LC_ADDRESS = de_DE.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 41898
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=149/1024=15%, Rehash=0, Collisions=26/212=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66311, inode 3956863): 8 files, no impossibilities.
+# src (device 66311, inode 3956868): 5 files, no impossibilities.
+
+# 13 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: output main
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/10=0%
+#  recipe to execute (from 'Makefile', line 68):
+	@echo Executing 'all' complete!
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-20 19:41:26.071423469
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-19 19:32:50.310499356
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	./$(OUTPUTMAIN)
+	@echo Executing 'run: all' complete!
+
+.cpp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $<  -o $@
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 85):
+	$(RM) $(OUTPUTMAIN)
+	$(RM) $(call FIXPATH,$(OBJECTS))
+	@echo Cleanup complete!
+
+main: src/main.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := main
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/main.o
+# automatic
+# | := 
+# automatic
+# < := src/main.o
+# automatic
+# ^ := src/main.o
+# automatic
+# ? := src/main.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/18=11%
+#  recipe to execute (from 'Makefile', line 74):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
+
+output:
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-20 19:41:26.075423457
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 71):
+	$(MD) $(OUTPUT)
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/31=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 21 / storage = 156 B / avg = 7 B
+# current buf: size = 8162 B / used = 156 B / count = 21 / avg = 7 B
+
+# strcache performance: lookups = 43 / hit rate = 51%
+# hash-table stats:
+# Load=21/8192=0%, Rehash=0, Collisions=2/43=5%
+# Finished Make data base on Tue Jun 21 09:05:25 2022
+
+ 
